@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <h1>Kullanıcı Bilgi Formu</h1>
+    <form action="#" method="post">
+        <label for="firstname">Adı:</label>
+        <input type="text" id="firstname" name="firstname" required>
+
+        <label for="lastname">Soyadı:</label>
+        <input type="text" id="lastname" name="lastname" required>
+
+        <label for="email">E-posta:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="password">Parola:</label>
+        <input type="password" id="password" name="password" required>
+
+        <label>Cinsiyet:</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male" style="display: inline;">Erkek</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female" style="display: inline;">Kadın</label>
+
+        <label for="favoriteFruit">Favori Meyve:</label>
+        <select id="favoriteFruit" name="favoriteFruit">
+            <option value="apple">Elma</option>
+            <option value="banana">Muz</option>
+            <option value="strawberry">Çilek</option>
+        </select>
+
+        <label for="message">Mesajınız:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <button type="submit">Gönder</button>
+    </form>
+</body>
+</html>
